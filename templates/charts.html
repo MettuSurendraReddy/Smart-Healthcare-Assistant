@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Results</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+            color: #e63946;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .back-btn {
+            display: block;
+            width: fit-content;
+            margin: 30px auto 0;
+            padding: 12px 24px;
+            background: #e63946;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .back-btn:hover { background: #c1121f; }
+        .accuracy {
+            text-align: center;
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .accuracy h2 { color: #2ecc71; font-size: 28px; }
+        .accuracy p { color: #666; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>&#10084;&#65039; Model Performance Results</h1>
+    <p class="subtitle">Smart Healthcare Assistant — AI Disease Prediction</p>
+
+    <div class="accuracy">
+        <h2>84% Accuracy</h2>
+        <p>Random Forest Classifier trained on 302 unique patient records (duplicates removed)</p>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Dataset Distribution</h3>
+            <img src="/static/distribution.png" alt="Distribution">
+        </div>
+        <div class="card">
+            <h3>Confusion Matrix</h3>
+            <img src="/static/confusion_matrix.png" alt="Confusion Matrix">
+        </div>
+        <div class="card">
+            <h3>Feature Importance</h3>
+            <img src="/static/feature_importance.png" alt="Feature Importance">
+        </div>
+        <div class="card">
+            <h3>ROC Curve</h3>
+            <img src="/static/roc_curve.png" alt="ROC Curve">
+        </div>
+    </div>
+
+    <a href="/" class="back-btn">&#8592; Back to Predictor</a>
+</body>
+</html>
