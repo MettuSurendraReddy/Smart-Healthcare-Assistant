@@ -123,6 +123,16 @@ This project is for educational purposes only and should not be used for medical
 
 ---
 
+## What I learned
+
+- How duplicate data silently inflates model accuracy and why deduplication matters before training
+- The difference between training accuracy and cross-validated accuracy
+- How to build an end-to-end ML pipeline from raw data to a working web application
+- Why 84% honest accuracy is better than 99% misleading accuracy
+- How to use Flask to serve ML model predictions via a web interface
+
+---
+
 ## About me
 
 I am currently doing my MSc in Artificial Intelligence at Brandenburg University of Technology (BTU Cottbus) and looking for an internship in machine learning or data science.
