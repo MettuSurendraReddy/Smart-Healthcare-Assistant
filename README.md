@@ -1,5 +1,7 @@
 # Smart Healthcare Assistant
 
+Live demo: https://smart-healthcare-assistant-vszt.onrender.com
+
 A web app that predicts heart disease risk from patient clinical data. Built with Python and Flask as a personal project during my MSc AI studies at BTU Cottbus.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
