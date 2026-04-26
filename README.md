@@ -139,4 +139,4 @@ This project is for educational purposes only and should not be used for medical
 
 I am currently doing my MSc in Artificial Intelligence at Brandenburg University of Technology (BTU Cottbus) and looking for an internship in machine learning or data science.
 
-[LinkedIn](https://www.linkedin.com/in/-surendrareddy) | [GitHub](https://github.com/MettuSurendraReddy) | surendrareddy.mettu25@gmail.com
+[LinkedIn](https://www.linkedin.com/in/-surendrareddy) | [GitHub](https://github.com/MettuSurendraReddy) | mettusurendra02@gmail.com
