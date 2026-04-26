@@ -6,7 +6,7 @@ A web app that predicts heart disease risk from patient clinical data. Built wit
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.0-lightgrey)
-![Accuracy](https://img.shields.io/badge/CV_Accuracy-82.78%25-brightgreen)
+![Accuracy](https://img.shields.io/badge/Test_Accuracy-83.61%25-brightgreen)
 
 ---
 
